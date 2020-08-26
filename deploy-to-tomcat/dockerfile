@@ -1,0 +1,5 @@
+FROM tomcat:latest
+
+MAINTAINER Rakesh kumawat
+
+COPY ./webapp.war /user/local/tomcat/webapps
